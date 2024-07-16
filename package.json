@@ -1,0 +1,17 @@
+{
+  "name": "proxy website",
+  "version": "1.0.0",
+  "description": "proxy website",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Roddy McGillivray",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
